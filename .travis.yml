@@ -24,12 +24,8 @@ services:
   - docker
 
 before_install:
-- docker pull gapsystem/gap-docker-master
+- docker pull gapsystem/gap-docker-stable-4.10
 
 script:
     - docker version
-    - docker run -v $PWD:/home/gap/travis/ gapsystem/gap-docker-master /bin/sh -c "TEST_SUITE=${TEST_SUITE} GAPPKG=${GAPPKG} TERM=dumb LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
-
-notifications:
-  slack:
-    secure: tE40rzz0SR4mcfXDAwzUtoCe8Q0NuddIrPkNDC4aYj/XOpcd4tVQQVB/BqTBsoD5eUe5pq0ejFQL9G+XljpkF/DiYtRTM1wjFQDz58qECFgkRnu2yhGWSKJNoCfvw0nQheBSRtZLsoCORo+F2a4X2PMvEtFjokcl+8RgpC0rpznqLqKrIUfE8TPd58J49COwcdw3C/UdtAs1v8S5NVjPptXwsVOwb7T9/BshcdUWqsAD5a7I9TFUBUoFvlqOqHiTltfFD/H9Y/5Z5xQKYCIx0fdXQyyIQfMGfQIhdyzWTkyZAQ1EpcafA/wU/gXmFlQ9gfYSL5bd6cc8xt5TJ1ieUNSLbueLw2Jt2MqJ3tCgBjTpFs9AjKrx4mgf9gMLgMoyrkKBay4EUZFlQ8hH0Y6GXGIdlB7pMvAb0sEN5jOKaOaXP8I6+Ll5hb5LcYL6zLMK7BQJAnom/zAC9hYwpljmNtqAJUrfOkW9TsuWcO0h1RU6VKMJr4gC274ljVE6YvjwUWbwIL0FDvx3UqpWm8Xpt6iN+ZI+4RxKa2gcM4ONUPbqYsy5uEaz1d0zhERZqwzshpzu9lV1onMg9KzXwuNqUY8LJ3KWRyWHTBEaDjPay5chvac7R5XugMSCK0n0Piedvn+d03HddLSq8q3WXT9AirQmNFuPc7AP6Kux5KTta3w=
+    - docker run -v $PWD:/home/gap/travis/ gapsystem/gap-docker-stable-4.10 /bin/sh -c "TEST_SUITE=${TEST_SUITE} GAPPKG=${GAPPKG} TERM=dumb LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"

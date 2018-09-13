@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/gap-system/gap-docker-master-testsuite.svg?branch=master)](https://travis-ci.org/gap-system/gap-docker-master-testsuite)
+[![Build Status](https://travis-ci.org/gap-system/gap-docker-stable-4.10-testsuite.svg?branch=master)](https://travis-ci.org/gap-system/gap-docker-stable-4.10-testsuite)
 
-# gap-docker-master-testsuite
+# gap-docker-stable-4.10-testsuite
 
 This repository is used to run GAP test suite using the Docker container
 with GAP from the tip of the master branch and packages from the archive
-https://www.gap-system.org/pub/gap/gap4pkgs/packages-master.tar.gz
+https://www.gap-system.org/pub/gap/gap4pkgs/packages-stable-4.10.tar.gz
 
 This Travis test allows everyone (not only to those who can access Jenkins)
 to see how testinstall/standard/bugfix behaves with no packages, with default
