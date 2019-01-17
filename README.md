@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gap-system/gap-docker-stable-4.10-testsuite.svg?branch=master)](https://travis-ci.org/gap-system/gap-docker-stable-4.10-testsuite)
+[![Build Status](https://travis-ci.org/gap-infra/gap-docker-stable-4.10-testsuite.svg?branch=master)](https://travis-ci.org/gap-infra/gap-docker-stable-4.10-testsuite)
 
 # gap-docker-stable-4.10-testsuite
 
@@ -9,6 +9,6 @@ https://www.gap-system.org/pub/gap/gap4pkgs/packages-stable-4.10.tar.gz
 This Travis test allows everyone (not only to those who can access Jenkins)
 to see how testinstall/standard/bugfix behaves with no packages, with default
 packages, and with all packages loaded, using the GAP Docker container for
-the master branch with packages from the packages-master.tar.gz archive.
+the master branch with packages from the `packages-master.tar.gz` archive.
 
 This is Travis CI cron job, scheduled to run daily.
