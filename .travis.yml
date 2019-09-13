@@ -1,5 +1,9 @@
 language: c
 
+branches:
+  only:
+    - master
+
 matrix:
   include:
     - env: TEST_SUITE=testinstall GAPPKG=no
