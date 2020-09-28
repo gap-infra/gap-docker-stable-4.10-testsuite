@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gap-infra/gap-docker-stable-4.10-testsuite.svg?branch=master)](https://travis-ci.org/gap-infra/gap-docker-stable-4.10-testsuite)
+[![Build Status](https://travis-ci.com/gap-infra/gap-docker-stable-4.10-testsuite.svg?branch=master)](https://travis-ci.com/gap-infra/gap-docker-stable-4.10-testsuite)
 
 # gap-docker-stable-4.10-testsuite
 
